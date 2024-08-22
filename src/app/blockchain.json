@@ -1,0 +1,44 @@
+{
+    "assets": [
+        {
+            "name": "Testnet Ether",
+            "id": "0",
+            "coingeckoId": "ethereum",
+            "ticker": "ETH",
+            "decimals": 18,
+            "logo": "/assets/eth.png",
+            "chainId": "31337"
+        },
+        {
+            "name": "Tether",
+            "id": "1",
+            "coingeckoId": "tether",
+            "ticker": "USDT",
+            "decimals": 6,
+            "logo": "/assets/tether.png",
+            "chainId": "31337",
+            "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9"
+        }
+    ],
+    "chains": [
+        {
+            "name": "Ethereum (Local testnet)",
+            "chainId": "31337",
+            "nativeAssetId": "0",
+            "blockchainExplorer": "https://etherscan.io/tx"
+        },
+        {
+            "name": "Ethereum",
+            "chainId": "2",
+            "nativeAssetId": "2",
+            "blockchainExplorer": "https://etherscan.io/tx"
+        }
+    ],
+    "abis": {
+        "erc20": [
+            "function balanceOf(address account) external view returns (uint256)",
+            "function transfer(address to, uint256 value) external returns (bool)",
+            "function decimals() public view returns (uint8)"
+        ]
+    }
+}

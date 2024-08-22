@@ -108,6 +108,16 @@
 .logo {
   position: relative;
 }
+
+.alert {
+  opacity: 1;
+  transition: opacity 0.5s ease-out; /* Controls the fade-out effect */
+}
+
+.alert.fade-out {
+  opacity: 0;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
