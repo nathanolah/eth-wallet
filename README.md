@@ -7,12 +7,6 @@ Welcome to my **eth-crypto-wallet**, a secure and intuitive platform for managin
 - [About the Project](#about-the-project)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## 🌟 About the Project
 
