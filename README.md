@@ -17,7 +17,7 @@ This crypto wallet is designed to be a user-friendly application for managing mu
 - [Next.js](https://nextjs.org/)
 - [React.js](https://reactjs.org/)
 - [Node.js](https://nodejs.org/)
-- [Web3.js](https://web3js.readthedocs.io/)
+- [Ethers.js](https://docs.ethers.org/v5/)
 
 ## ✨ Features
 
